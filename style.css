@@ -1,0 +1,660 @@
+* {
+  font-family: "Poppins";
+}
+
+#img1 {
+  width: 100%;
+}
+#img2 {
+  width: 92%;
+}
+
+.nav-font {
+  font-size: 14px;
+}
+#img1lnk {
+  font-weight: 500;
+  font-family: poppins;
+  margin-top: 20px;
+}
+#img1lnk a {
+  color: #032d60;
+}
+
+.team-section {
+  margin-top: 40px;
+}
+
+#img2lnk {
+  font-weight: 500;
+  font-family: poppins;
+  margin-top: 20px;
+}
+#img2lnk a {
+  color: #032d60;
+}
+.body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.box12 {
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px -2px hsla(0, 0%, 9%, 0.08),
+    0 8px 12px -2px hsla(0, 0%, 9%, 0.16);
+  padding-bottom: 20px;
+}
+
+.box1 {
+  background-color: rgba(11, 92, 171, 1);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  text-align: start;
+  padding-left: 4%;
+  padding-top: 20px;
+  margin-top: 200px;
+  padding-bottom: 20px;
+  color: white;
+  gap: 40px;
+}
+.box1 a {
+  color: white;
+}
+.brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.brandName {
+  font-weight: 700px;
+  font-size: 16px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.links a {
+  font-size: 12px;
+  font-weight: 400px;
+  color: rgb(255, 255, 255);
+}
+.image-1 {
+  width: 30px;
+}
+.copy-right {
+  flex-wrap: wrap;
+  display: flex;
+  font-size: 12px;
+  font-weight: 400px;
+}
+.section-3 {
+  width: 99%;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.sub1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+  width: 100%;
+}
+.companies {
+  color: #032d60;
+  width: 50%;
+  font-weight: 600;
+  font-size: 40px;
+}
+.Salesforce {
+  width: 50%;
+  font-weight: inherit;
+  font-size: 18px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.button {
+  border: 2px solid #0176d3;
+  border-radius: 5px;
+  background-color: #0176d3;
+  width: 170px;
+  height: 50px;
+}
+
+.main-areas5 {
+  padding-top: 100px;
+}
+
+.button2 {
+  border: 2px solid #0176d3;
+  border-radius: 5px;
+  background-color: white;
+  width: 170px;
+  height: 50px;
+}
+.valuable {
+  color: #032d60;
+  width: 50%;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.guided {
+  width: 50%;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.sub2 {
+  width: 99%;
+}
+.Module {
+  border: none;
+  color: #032d60;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: aqua;
+  margin-bottom: 19px;
+}
+.Module a {
+  text-decoration: none;
+  color: #032d60;
+}
+.Quick1 {
+  color: #032d60;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 19px;
+}
+
+.Quick {
+  color: #032d60;
+  font-weight: 700;
+  margin-bottom: 19px;
+  font-size: 25px;
+}
+.efficient {
+  font-weight: 400px;
+  color: black;
+  font-family: inherit;
+  font-size: 19px;
+}
+.Start-learning a {
+  color: #032d60;
+  border: none;
+}
+.Start-learning {
+  background-color: white;
+  border: none;
+  color: #032d60;
+  margin-top: 50px;
+  font-weight: 600;
+}
+#Learn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+}
+.leran-half {
+  width: 180px;
+  border: 2px solid #0176d3;
+  padding: 10px 0px 10px 0px;
+}
+.for {
+  border: none;
+  color: #0176d3;
+  background-color: white;
+}
+
+.video-thumbnail {
+  position: relative;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.video-thumb-img {
+  width: 110%;
+  height: 350px;
+  border-radius: 12px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.play-button i {
+  font-size: inherit;
+}
+
+.video-thumbnail:hover .play-button {
+  opacity: 1;
+}
+
+@media screen and (max-width: 992px) {
+  .box1 {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 35px;
+    text-align: start;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 20px;
+    margin-top: 10px;
+    padding-bottom: 40px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .links {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .companies {
+    width: 90%;
+  }
+  .Salesforce {
+    width: 60%;
+  }
+
+  .main-areas5 {
+    padding-top: 30px;
+  }
+
+  .team-section {
+    margin-top: 50px;
+  }
+
+  .video-thumb-img {
+    width: 100%;
+    height: 350px;
+    border-radius: 12px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+  }
+  .valuable {
+    color: #032d60;
+    width: 50%;
+    font-weight: inherit;
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  .guided {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .links {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .companies {
+    width: 92%;
+    font-size: 32px;
+  }
+  .Salesforce {
+    width: 92%;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  .button {
+    width: 300px;
+  }
+
+  .button2 {
+    width: 300px;
+  }
+  .valuable {
+    width: 84%;
+    margin-top: 40px;
+    margin-bottom: -10px;
+  }
+  .guided {
+    width: 82%;
+    margin-bottom: 30px;
+  }
+  .sub2 {
+    width: 99%;
+  }
+}
+
+.background__graphics {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.blade__background-image {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background__image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+F .background__contour {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.mainheader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header {
+  font-size: 20px;
+  text-align: center;
+  width: 60%;
+}
+.mainbox {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.box {
+  width: 90%;
+}
+.mainline {
+  width: 100%;
+}
+.same {
+  width: 90%;
+}
+.lines {
+  color: black;
+  font-size: 18px;
+  font-family: arial;
+}
+@media (max-width: 968px) {
+  .header {
+    font-size: 20px;
+    text-align: center;
+    width: 90%;
+  }
+}
+.container {
+  width: 100%;
+}
+
+.img1 {
+  background-image: url(pb-hp-footer-mid3-in.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 95%;
+  box-shadow: 0px 3px 10px 0px gray;
+}
+.jarry {
+  width: 60%;
+}
+
+.maindivbtn {
+  width: 100%;
+}
+.btn {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .img1 {
+    background-image: url(pb-hp-footer-mid3-in.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 95%;
+    box-shadow: 0px 3px 10px 0px gray;
+  }
+}
+
+.button1s6 {
+  border: 1px solid #0176d3;
+  width: 170px;
+  height: 50px;
+  background-color: #0176d3;
+  border-radius: 5px;
+}
+
+.button2s6 {
+  border: 2px solid #0176d3;
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+#s6p1 {
+  color: #032d60;
+}
+
+.button1s5 {
+  border: 2px solid #0176d3;
+  width: 190px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.navbar-2 {
+  background-color: #140075;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  color: white;
+  margin-top: 80px;
+  padding: 10px 0px 10px 0px;
+  flex-wrap: wrap;
+}
+.Agentforce {
+  font-size: 15px;
+  font: italic;
+  font-weight: 600;
+}
+.driving {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  letter-spacing: -0.005em;
+  font-weight: 700;
+}
+.Discover {
+  font-size: 16px;
+  font-weight: 900px;
+  color: white;
+}
+.card {
+  transition: transform 0.2s;
+}
+
+#text-area-main {
+  margin-top: 0px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px -2px hsla(0, 0%, 9%, 0.08),
+    0 16px 24px -2px hsla(0, 0%, 9%, 0.16);
+}
+
+.Module a:hover,
+.Start-learning a:hover {
+  text-decoration: underline;
+}
+
+.Start-learning {
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 992px) {
+  .box12 {
+    width: 23%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    gap: 4px;
+    padding: 10px 0px 10px 30px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .button-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-font {
+    font-size: 24px;
+    margin-top: 7px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #text-area1s6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .text-box {
+    align-items: center;
+    text-align: center;
+  }
+
+  .button1s6 {
+    width: 300px;
+  }
+
+  .button2s6 {
+    width: 300px;
+  }
+
+  .button1s5 {
+    border: 2px solid #0176d3;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+  }
+}
+
+.main12 {
+  background-image: url("https://wp.sfdcdigital.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-sm-bg.jpg?w=731");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .main12 {
+    background-image: url("https://wp.sfdcdigital.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-lg-bg.jpg?w=1024");
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .box12 {
+    width: 48%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main12 {
+    background-size: cover;
+    background-position: top center;
+  }
+}
+
+.headline {
+  display: flex;
+  color: #032d60;
+  font-size: 40px;
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  text-align: center;
+  font-weight: bold;
+}
